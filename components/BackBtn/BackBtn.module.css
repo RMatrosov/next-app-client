@@ -1,0 +1,22 @@
+.back__btn {
+    color: #3260A1;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background: #FFFFFF;
+    width: 117px;
+    height: 45px;
+    box-shadow: 0 10px 25px rgba(148, 174, 213, 0.15);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.back__btn:hover {
+    box-shadow: 0 0 35px rgba(148, 174, 213, 0.15);
+    transition: .3s all ease;
+}

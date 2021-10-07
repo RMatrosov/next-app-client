@@ -1,0 +1,60 @@
+.post__page_wrapper {
+    background: #FEFEFE;
+    border-radius: 15px;
+    max-width: 1110px;
+    width: 100%;
+    height: 585px;
+    display: flex;
+    padding: 35px;
+    margin-top: 35px;
+    position: relative;
+    column-gap: 45px;
+}
+
+.post__page_text_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.post__page_title{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #3260A1;
+}
+
+.post__page_text{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+
+}
+
+.post__page_image{
+    height: 316px;
+    width: 50%;
+    align-self: center;
+}
+
+.post__page_button{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #EB5050;
+    box-shadow: 0 10px 25px rgba(148, 174, 213, 0.15);
+    border-radius: 10px;
+    position: absolute;
+    left: 45%;
+    bottom: -10px;
+    cursor: pointer;
+}
